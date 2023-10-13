@@ -1,0 +1,38 @@
+.search-container{
+    
+    margin: 20px;
+    height: 40px;
+}
+.search-container .searchbar{
+    width: 30%;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    /* margin-right: 40%; */
+    
+}
+.search{
+    /* margin-right: 100px; */
+    width: 7%;
+    height: 33px;
+    font-size: 18px;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    margin-left: 10px;
+}
+
+.filter{
+    /* border-radius: 20px; */
+    height: 33px;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+.Card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* margin: 10px; */
+    margin-left: 150px;
+}

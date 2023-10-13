@@ -1,0 +1,124 @@
+.empty{
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center */
+}
+.emptycart{
+    /* margin-bottom: 20px; */
+    height: 300px;
+}
+.explore-btn{
+    /* text-align: center; */
+    margin-left: 2px;
+    background-color: orange;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+}
+.cartpage{
+    margin-top: 80px;
+}
+.cartItem{
+    /* justify-content: center; */
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+
+}
+.cartlayout{
+    border-bottom: rgba(40, 44, 63, 0.45) 0.5px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cart-items{
+    display: flex;
+    max-height: 250px;
+    border-bottom: rgba(40, 44, 63, 0.45) 0.5px solid;
+}
+
+.cart-img-wrapper{
+    width: 200px;
+    overflow: hidden;
+    margin-left: 120px;
+}
+.cart-img-wrapper h6{
+    margin-top: 1px;
+}
+
+.cart-item-img{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.cart-cost{
+    margin-top: 40px ;
+    margin-left: 115px;
+    font-size: 15px;
+}
+
+.ADD-btn{
+    margin-top: 40px;
+    margin-left: 200px;
+    border: 1px solid black;
+    width: 80px;
+    height: 22px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.ADD-btn svg{
+    font-size: 13px;
+    cursor: pointer;
+}
+.cart-count{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.item-total{
+    margin-top: 40px ;
+    margin-left: 210px;
+}
+.clearCart{
+    margin: 10px;
+    text-align:end;
+    margin-right: 155px;
+    margin-top: -50px;
+}
+.clear-btn{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+.total-cost{
+    flex-direction: row ;
+}
+.total{
+    text-align: end;
+    height: 30px;
+    padding-right: 170px;
+    font-weight: bold  ;
+}
+
+.proceed{
+    text-align: end;
+    margin-right: 290px;
+    margin-top: 20px;
+    /* width: 100px; */
+}
+.proceed-btn{
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
