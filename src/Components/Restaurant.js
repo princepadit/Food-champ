@@ -14,7 +14,7 @@ function filterData(searchbar, restaurants) {
   return resFilterData;
 }
 
-function Restaurant() {
+function Restaurant() { 
   const [listofrestaurants, setListofrestaurants] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchbar, setSearchbar] = useState("");
