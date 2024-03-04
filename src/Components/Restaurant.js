@@ -103,13 +103,13 @@ function Restaurant() {
           Top Rated Restaurant
         </button>
       </div>
-      <label>Enter Your name : </label>
+      {/* <label>Enter Your name : </label>
         <input
           className="filter"
           placeholder="Username"
           value={loggedInUser}
           onChange={(e)=>setUserName(e.target.value)}
-        ></input>
+        ></input> */}
       {errorMessage && <div className="error-container">{errorMessage}</div>}
       {listofrestaurants?.length === 0 ? (
         <Shimmer />
