@@ -1,16 +1,47 @@
-import React from "react";
 
-class Contact extends React.Component {
-  render() {
+import React, { useState } from 'react';
+
+const Contact = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        // Handle form submission, you can use fetch or axios to send data to the server
+        console.log(formData);
+        // Reset form fields
+        setFormData({
+            name: '',
+            email: '',
+            message: ''
+        });
+    };
+
     return (
-      <div className="contact">
-        <h1>Name: Ritik Yadav</h1>
-        <h2>Location: Kharagpur</h2>
-        <h3>Email: ritikyadav0178@gmail.com</h3>
-        <h3>Number: 8972179937</h3>
-      </div>
+        <div>
+            <h2>Contact Us</h2>
+            <form onSubmit={handleSubmit}>
+                <label htmlFor="name">Name:</label>
+                <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
+
+                <label htmlFor="email">Email:</label>
+                <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
+
+                <label htmlFor="message">Message:</label>
+                <textarea id="message" name="message" value={formData.message} onChange={handleChange} required />
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     );
-  }
-}
+};
 
 export default Contact;
