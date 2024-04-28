@@ -1,0 +1,45 @@
+/* contact.css */
+
+.Con {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.Con h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Con form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.Con form input[type="text"],
+.Con form input[type="email"],
+.Con form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.Con form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.Con form button:hover {
+    background-color: #0056b3;
+}

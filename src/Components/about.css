@@ -1,0 +1,45 @@
+/* About.css */
+
+.about-section {
+    padding: 50px 20px;
+    background-color:thistle;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.about-content h2 {
+    color: #333;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    margin: 20px;
+}
+
+
+.team-member img {
+    width: 200px;
+    border-radius: 80%;
+}
+
+.member-info {
+    margin-top: 10px;
+}
+
+.member-info h4 {
+    margin-bottom: 5px;
+}
+
+.member-info p {
+    color: #666;
+    font-style: italic;
+}

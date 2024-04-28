@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-
+import "./contact.css";
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -26,7 +26,7 @@ const Contact = () => {
     };
 
     return (
-        <div>
+        <div className="Con">
             <h2>Contact Us</h2>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="name">Name:</label>
